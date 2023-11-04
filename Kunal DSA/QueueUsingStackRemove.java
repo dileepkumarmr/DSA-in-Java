@@ -1,30 +1,35 @@
 import java.util.Stack;
 
-public class QueueUsingStack {
+/**
+ * QueueUsingStackRemove
+ */
+public class QueueUsingStackRemove {
     private Stack<Integer> first;
     private Stack<Integer> second;
 
-    public QueueUsingStack() {
+    public QueueUsingStackRemove() {
         first = new Stack<>();
         second = new Stack<>();
     }
 
-    public void add(int item) {
-        first.push(item);
-    }
-
-    public int remove() throws Exception {
+    public void add(int item) throws Exception {
         while (!first.isEmpty()) {
             second.push(first.pop());
 
         }
-
-        int peeked = second.peek();
+        first.push(item);
 
         while (!second.isEmpty()) {
             first.push(second.pop());
         }
-        return peeked;
+    }
+
+    public int remove() throws Exception {
+        return first.pop();
+    }
+
+    public int peek() throws Exception {
+        return first.peek();
     }
 
     public boolean isEmpty() {
