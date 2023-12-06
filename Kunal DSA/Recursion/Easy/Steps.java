@@ -1,10 +1,6 @@
 package Recursion.Easy;
 
 public class Steps {
-    public static void main(String[] args) {
-
-    }
-
     public int numberOfSteps(int num) {
         return helper(num, 0);
     }
