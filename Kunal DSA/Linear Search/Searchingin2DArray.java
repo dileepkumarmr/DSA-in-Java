@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Searchingin2DArray {
     public static int[] search(int[][] arr, int target) {
         for (int row = 0; row < arr.length; row++) {

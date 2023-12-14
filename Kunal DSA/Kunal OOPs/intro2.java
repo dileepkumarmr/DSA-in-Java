@@ -1,7 +1,3 @@
-import java.sql.Struct;
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class intro2 {
 
     public static void main(String[] args) {
@@ -55,7 +51,7 @@ public class intro2 {
 
 // create a class
 // for every single student
-class Student {
+class Students {
     int rno;
     String name;
     float marks = 90;
@@ -73,13 +69,13 @@ class Student {
         this.name = name;
     }
 
-    Student(Student other) {
+    Students(Student other) {
         this.name = other.name;
         this.rno = other.rno;
         this.marks = other.marks;
     }
 
-    Student() {
+    Students() {
         // this is how you call a constructor from another constructor
         // internally: new Student (13, "default person", 100.0f);
         this(13, "default person", 100.0f);
@@ -87,7 +83,7 @@ class Student {
 
     // Student arpit = new Student(17, "Arpit", 89.7f);
     // here, this will be replaced with arpit
-    Student(int rno, String name, float marks) {
+    Students(int rno, String name, float marks) {
         this.rno = rno;
         this.name = name;
         this.marks = marks;
@@ -112,7 +108,7 @@ public class intro2 {
 
 }
 
-class Student {
+//class Student {
     int rno;
     String name;
     float marks;

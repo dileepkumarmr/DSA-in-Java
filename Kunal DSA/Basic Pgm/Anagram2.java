@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * array
  */
-public class array {
+public class Anagram2 {
 
     public static void main(String[] args) {
         // words

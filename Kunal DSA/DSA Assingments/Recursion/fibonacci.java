@@ -1,9 +1,7 @@
-import java.util.Scanner;
-
 /**
  * fibo
  */
-public class fibo {
+public class fibonacci {
 
     public static int fibb(int n) {
         int first = 0;
