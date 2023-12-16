@@ -1,3 +1,5 @@
+package Basic_Pgm;
+
 /**
  * MaxWealth
  */
