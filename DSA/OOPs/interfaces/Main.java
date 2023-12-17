@@ -20,7 +20,7 @@ public class Main {
         car.startMusic();
         car.upgradeEngine();
         car.start();
-        car.startMusic();
+        car.stopMusic();
 
 
 
