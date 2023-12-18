@@ -91,7 +91,7 @@ WildcardExample
 //        }
 //        System.out.println(list3);
 
-        WildcardExample<Integer> list4 = new WildcardExample<>();
+//        WildcardExample<Integer> list4 = new WildcardExample<>();
         WildcardExample<Number> list5 = new WildcardExample<>();
     }
 

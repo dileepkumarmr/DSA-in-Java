@@ -1,4 +1,4 @@
-package OOPs.exceptionHandling;
+package OOPs.OOP6.generics.exceptionHandling;
 
 public class Main {
     public static void main(String[] args) {
