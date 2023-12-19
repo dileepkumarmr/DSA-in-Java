@@ -1,3 +1,5 @@
+package Linked_List;
+
 public class LinkedLSt {
     public static void main(String[] args) {
         // LL list = new LL();
