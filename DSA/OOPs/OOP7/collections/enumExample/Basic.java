@@ -1,7 +1,9 @@
 package OOPs.OOP7.collections.enumExample;
 
 public class Basic {
-    enum Week implements A {
+    enum Week
+            implements A
+    {
         mon, tue, wed, thu, fri, sat;
 
         Week() {
