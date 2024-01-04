@@ -33,6 +33,7 @@ public class Human implements Cloneable {
 //        for (int i = 0; i < twin.arr.length; i++) {
 //            twin.arr[i] = this.arr[i];
 //        }
+
         // enhanced
         System.arraycopy(this.arr, 0, twin.arr, 0, twin.arr.length);
         return twin;
