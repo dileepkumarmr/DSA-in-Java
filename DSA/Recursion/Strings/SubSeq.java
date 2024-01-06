@@ -5,9 +5,9 @@ import java.util.ArrayList;
 public class SubSeq {
     public static void main(String[] args) {
 //        subseq("", "abc");
-//        System.out.println(subseqRet("", "abc"));
-//        subseqAscii("", "abc");
-        System.out.println(subseqAsciiRet("", "abc"));
+        System.out.println(subseqRet("", "abc"));
+////        subseqAscii("", "abc");
+////        System.out.println(subseqAsciiRet("", "abc"));
     }
 
 

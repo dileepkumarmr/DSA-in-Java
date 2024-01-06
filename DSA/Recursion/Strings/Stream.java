@@ -2,10 +2,10 @@ package Recursion.Strings;
 
 public class Stream {
     public static void main(String[] args) {
-        // skip("", "baccdah");
-        // System.out.println(skip("baccdah"));
-        // System.out.println(skipApple("bacapplecdah"));
-        System.out.println(skipAppNotApple("bacapplecdah"));
+         skip("", "baccdah");
+//         System.out.println(skip("baccdah"));
+//         System.out.println(skipApple("bacapplecdah"));
+//        System.out.println(skipAppNotApple("bacapplecdah"));
     }
 
     public static void skip(String p, String up) {
