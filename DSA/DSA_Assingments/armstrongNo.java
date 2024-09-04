@@ -1,30 +1,34 @@
+package DSA_Assingments;
+
 public class armstrongNo {
-    
-    public static boolean armstrong(int n) {
 
-        int orgNo=n;
-        int count=0;
-        int temp=n;
+    public static boolean armstrong(int num) {
 
-        while (temp!=0) {
-            count++;
-            temp/=10;
+        int orgNum = num;
+//        int numberOfDigits = 0;
+        int numberOfDigits = String.valueOf(num).length();
+//        int temp = num;
+
+
+
+//        while (temp != 0) {
+//            numberOfDigits++;
+//            temp /= 10;
+//        }
+
+        int sum = 0;
+
+        while (num != 0) {
+            int digit = num % 10;
+            sum += Math.pow(digit, numberOfDigits);
+            num /= 10;
         }
 
-        int sum=0;
-
-        while (n!=0) {
-            int digit = n%10;
-            sum+= Math.pow(digit,count);
-            n/=10;
-        }
-
-        return (sum == orgNo);
+        return (sum == orgNum);
     }
+
     public static void main(String[] args) {
         boolean ans = armstrong(153);
         System.out.println(ans);
-
-
     }
 }
